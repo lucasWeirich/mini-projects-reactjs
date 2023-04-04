@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--colorLight);
+  background-color: var(--colorDark);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --colorDark: #1a1a1c;
+  --colorSubDark: #29292e;
+  --colorBorder: #323238;
+  --colorLight: #e1e1e6;
+  --colorEmphasisDark: #4d3388;
+  --colorEmphasisLight: #9434ea;
+  --colorEmphasisSubLight: #c6adff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--colorSubDark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--colorEmphasisDark);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--colorEmphasisLight);
+}
