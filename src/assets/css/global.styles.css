@@ -28,6 +28,11 @@
   padding: 0;
 }
 
+::selection {
+  background-color: var(--colorEmphasisDark);
+  color: var(--colorLight);
+}
+
 .Container {
   width: 100%;
   max-width: 1300px;

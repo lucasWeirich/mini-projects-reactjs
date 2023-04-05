@@ -3,6 +3,7 @@ import { allProjects } from '../../utils/allProjects'
 import * as NB from './NavBar.styles'
 import { mdiMagnify } from '@mdi/js'
 import { FormEvent, useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 export default function NavBar() {
@@ -13,7 +14,7 @@ export default function NavBar() {
 
   function handleMenuDrop() {
     const updateStateMenu = () => setMenuActive(!menuActive);
-    
+
     setSearch('');
 
     if (menuActive) {
@@ -34,14 +35,23 @@ export default function NavBar() {
 
     if (search !== '') searchItemMenu();
   }, [search])
+  
+  function handleSubmitSearch(e: FormEvent) {
+    e.preventDefault();
+    console.log(itemsMenu[0].url)
+    const link = itemsMenu[0]?.url;
+    if (link) window.location.href = link;
+    /* const navigate = useNavigate();
+    if (link) navigate(link); */
+  }
 
   return <NB.Wrapper>
     <div className="Container">
-      <a href="/"><NB.Logo src="/logo.png" /></a>
+      <Link to="/"><NB.Logo src="/logo.png" /></Link>
 
       <NB.Title>50 Projects in 50 days</NB.Title>
 
-      <NB.Search active={menuActive}>
+      <NB.Search active={menuActive} onSubmit={handleSubmitSearch}>
         <input
           type="search"
           name='search'
@@ -65,13 +75,13 @@ export default function NavBar() {
               itemsMenu[0] ?
                 itemsMenu.map(item => (
                   <li key={item.id}>
-                    <a href={item.url}>
+                    <Link to={item.url}>
                       {item.name}
                       {
                         item.description &&
                         <p>{item.description}</p>
                       }
-                    </a>
+                    </Link>
                   </li>
                 ))
                 :

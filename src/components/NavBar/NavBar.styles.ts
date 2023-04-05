@@ -9,17 +9,36 @@ export const Wrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 20px;
+    gap: 0px 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .Container {
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
   }
 `
 
 export const Logo = styled.img`
   height: 80px;
+
+  @media (max-width: 1024px) {
+    height: 40px;
+  }
 `
 
 export const Title = styled.h2`
   font-size: 30px;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
 `
 
 export const Search = styled.form<{
@@ -29,6 +48,7 @@ export const Search = styled.form<{
   display: flex;
   justify-content: end;
   position: relative;
+  z-index: 1;
 
   & input {
     width: 0%;
@@ -77,6 +97,10 @@ export const Search = styled.form<{
         fill: var(--colorEmphasisDark)!important;
       }
     }
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
   }
 `
 
