@@ -1,10 +1,13 @@
 import styled from "styled-components"
 import TemplateDefault from "../../templates/Default.template"
+interface NotFound404Props {
+  title: string
+}
 
-export default function NotFound404() {
-  return <TemplateDefault>
+export default function NotFound404({ title }: NotFound404Props ) {
+  return <TemplateDefault title={title}>
     <Wrapper>
-      <h1>Not Found - 404</h1>
+      <h1>Opss! I'm sorry, but the page you are trying to access does not exist. Please check the URL and try again!</h1>
 
       <a href="/">Back HOME</a>
     </Wrapper>
@@ -21,8 +24,10 @@ const Wrapper = styled.div`
   gap: 50px;
 
   & h1 {
+    max-width: 600px;
     font-size: 40px;
     text-align: center;
+    margin: 0 auto;
   }
 
   & a {

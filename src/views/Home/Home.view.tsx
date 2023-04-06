@@ -3,11 +3,15 @@ import TemplateDefault from "../../templates/Default.template";
 import { allProjects } from "../../utils/allProjects";
 import usePageTitle from '../../hook/usePageTitle';
 
-export default function HomeView() {
+interface HomeProps {
+  title: string
+}
+
+export default function HomeView({ title }: HomeProps) {
 
   usePageTitle('');
 
-  return <TemplateDefault>
+  return <TemplateDefault title={title}>
     <HV.Wrapper>
       {
         allProjects.map(project => (

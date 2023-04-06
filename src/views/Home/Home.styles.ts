@@ -16,6 +16,7 @@ export const Card = styled(Link)`
   text-decoration: none;
   color: var(--colorLight);
   transition: all 0.3s;
+  min-height: 300px;
 
   &:hover {
     background-color: var(--colorSubDark);
@@ -54,9 +55,14 @@ export const Card = styled(Link)`
     display: none;
     opacity: 0;
     transition: opacity 0.5s;
+    
   }
 
   & img {
     width: 100%;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+    object-fit: contain;
   }
 `

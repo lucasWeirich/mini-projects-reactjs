@@ -8,9 +8,9 @@ export const allProjects = [
   },
   {
     id:2,
-    name: 'Project 02',
-    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor similique aliquam sit incidunt ad ullam consectetur rem perferendis quidem nihil fugiat atque, vitae iste, magnam iure, earum facilis unde.',
-    img: 'https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png',
+    name: 'Progress Steps',
+    description: 'Project of progress steps with button prev and next.',
+    img: '/project02/capa.png',
     url: '/project02',
   }
 ]

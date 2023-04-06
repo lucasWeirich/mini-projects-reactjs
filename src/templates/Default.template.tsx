@@ -38,7 +38,7 @@ const Title = styled.h1`
   
 
   &::after {
-    content: 'Lucas Weirich';
+    content: '< Lucas Weirich />';
     font-size: 14px;
     font-weight: 600;
     animation: authorVisible 5s infinite alternate-reverse;
