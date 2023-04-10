@@ -1,10 +1,13 @@
 import styled from "styled-components"
 import TemplateDefault from "../../templates/Default.template"
+import usePageTitle from "../../hook/usePageTitle"
 interface NotFound404Props {
   title: string
 }
 
 export default function NotFound404({ title }: NotFound404Props ) {
+  usePageTitle('Not Found');
+
   return <TemplateDefault title={title}>
     <Wrapper>
       <h1>Opss! I'm sorry, but the page you are trying to access does not exist. Please check the URL and try again!</h1>

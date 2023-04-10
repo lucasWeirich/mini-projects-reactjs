@@ -19,5 +19,12 @@ export const allProjects = [
     description: 'Project of loading with blurred image according to loading percentage.',
     img: '/project03/capa.png',
     url: '/project03',
+  },
+  {
+    id: 4,
+    name: 'Scroll Animation',
+    description: 'Project of scroll animation basic and button for view more cards of text.',
+    img: '/project04/capa.png',
+    url: '/project04',
   }
 ]

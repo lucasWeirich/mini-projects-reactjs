@@ -3,8 +3,11 @@ import { ProjectsProps } from '../../@types/projects.types'
 import TemplateDefault from '../../templates/Default.template'
 import * as CSS from './Project03.styles'
 import ButtonDefault from '../../assets/css/ButtonDefault';
+import usePageTitle from '../../hook/usePageTitle';
 
 export default function Project03({ title }: ProjectsProps) {
+
+  usePageTitle('Blurry Loading')
 
   const allImages = [
     'https://images.unsplash.com/photo-1576161787924-01bb08dad4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80',
