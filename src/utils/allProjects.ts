@@ -26,5 +26,12 @@ export const allProjects = [
     description: 'Project of scroll animation basic and button for view more cards of text.',
     img: '/project04/capa.png',
     url: '/project04',
+  },
+  {
+    id: 5,
+    name: 'Form Input Wave',
+    description: 'Project of form with inputs wave - effect - validate.',
+    img: '/project05/capa.png',
+    url: '/project05',
   }
 ]
