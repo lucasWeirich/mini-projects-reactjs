@@ -33,5 +33,12 @@ export const allProjects = [
     description: 'Project of form with inputs wave - effect - validate.',
     img: '/project05/capa.png',
     url: '/project05',
+  },
+  {
+    id: 6,
+    name: 'Sound Board',
+    description: 'Project of sound board, click on the button to listen.',
+    img: '/project06/capa.png',
+    url: '/project06',
   }
 ]

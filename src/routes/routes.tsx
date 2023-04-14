@@ -12,6 +12,7 @@ export default function RoutesPage() {
         <Route path='/project03' element={<Project03 title="Project 03 - Blurry Loading" />} />
         <Route path='/project04' element={<Project04 title="Project 04 - Scroll Animation" />} />
         <Route path='/project05' element={<Project05 title="Project 05 - Form Input Wave" />} />
+        <Route path='/project06' element={<Project06 title="Project 06 - Sound Board" />} />
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
     </BrowserRouter>
@@ -24,3 +25,4 @@ import Project02 from '../projects/Project02/Project02';
 import Project03 from '../projects/Project03/Project03';
 import Project04 from '../projects/Project04/Project04';
 import Project05 from '../projects/Project05/Project05';
+import Project06 from '../projects/Project06/Project06';
