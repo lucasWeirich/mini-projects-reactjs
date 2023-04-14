@@ -40,5 +40,12 @@ export const allProjects = [
     description: 'Project of sound board, click on the button to listen.',
     img: '/project06/capa.png',
     url: '/project06',
+  },
+  {
+    id: 7,
+    name: 'Random Jokes',
+    description: 'Project of random jokes received from an api: https://icanhazdadjoke.com, where every request already arrives a different joke, a favorite option was added where it is possible to save the jokes.',
+    img: '/project07/capa.png',
+    url: '/project07',
   }
 ]
