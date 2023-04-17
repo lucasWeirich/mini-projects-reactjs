@@ -54,5 +54,12 @@ export const allProjects = [
     description: 'Project of random choice picker, where you write the words and use the comma to separate them and when you press the Enter key, a random choice of one of the words is made.',
     img: '/project08/capa.png',
     url: '/project08',
+  },
+  {
+    id: 9,
+    name: 'Increment Counter',
+    description: 'Project of increment counter for items of emphasis - Facebook - Instagram - YouTube.',
+    img: '/project09/capa.png',
+    url: '/project09',
   }
 ]

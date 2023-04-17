@@ -7,6 +7,7 @@ export default function RoutesPage() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomeView title="All Projects - FrontEnd" />} />
+        
         <Route path='/project01' element={<Project01 title="Project 01 - Expanding Cards" />} />
         <Route path='/project02' element={<Project02 title="Project 02 - Progress Steps" />} />
         <Route path='/project03' element={<Project03 title="Project 03 - Blurry Loading" />} />
@@ -15,6 +16,8 @@ export default function RoutesPage() {
         <Route path='/project06' element={<Project06 title="Project 06 - Sound Board" />} />
         <Route path='/project07' element={<Project07 title="Project 07 - Random Jokes" />} />
         <Route path='/project08' element={<Project08 title="Project 08 - Random Choice Picker" />} />
+        <Route path='/project09' element={<Project09 title="Project 09 - Increment Counter" />} />
+        
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
     </BrowserRouter>
@@ -30,3 +33,4 @@ import Project05 from '../projects/Project05/Project05';
 import Project06 from '../projects/Project06/Project06';
 import Project07 from '../projects/Project07/Project07';
 import Project08 from '../projects/Project08/Project08';
+import Project09 from '../projects/Project09/Project09';
