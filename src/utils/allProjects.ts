@@ -47,5 +47,12 @@ export const allProjects = [
     description: 'Project of random jokes received from an api: https://icanhazdadjoke.com, where every request already arrives a different joke, a favorite option was added where it is possible to save the jokes.',
     img: '/project07/capa.png',
     url: '/project07',
+  },
+  {
+    id: 8,
+    name: 'Random Choice Picker',
+    description: 'Project of random choice picker, where you write the words and use the comma to separate them and when you press the Enter key, a random choice of one of the words is made.',
+    img: '/project08/capa.png',
+    url: '/project08',
   }
 ]
