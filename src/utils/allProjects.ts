@@ -61,5 +61,12 @@ export const allProjects = [
     description: 'Project of increment counter for items of emphasis - Facebook - Instagram - YouTube.',
     img: '/project09/capa.png',
     url: '/project09',
+  },
+  {
+    id: 10,
+    name: 'Drink Water',
+    description: 'Project of track your daily water intake, allowing you to set a personalized water consumption goal.',
+    img: '/project10/capa.png',
+    url: '/project10',
   }
 ]
