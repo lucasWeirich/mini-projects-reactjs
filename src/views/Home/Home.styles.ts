@@ -5,6 +5,19 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 `
 
 export const Card = styled(Link)`
@@ -64,5 +77,21 @@ export const Card = styled(Link)`
     display: flex;
     border-radius: 5px;
     object-fit: contain;
+  }
+
+  @media (max-width: 1000px) {
+    &:hover {
+      background-color: var(--colorSubDark);
+      box-shadow: 10px 10px 10px -5px var(--colorBorder);
+      
+      & img {
+        display: initial!important;
+      }
+    }
+
+    & p {
+      display: initial;
+      opacity: 1;
+    }
   }
 `
