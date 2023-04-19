@@ -68,5 +68,12 @@ export const allProjects = [
     description: 'Project of track your daily water intake, allowing you to set a personalized water consumption goal.',
     img: '/project10/capa.png',
     url: '/project10',
+  },
+  {
+    id: 11,
+    name: 'Background Slider',
+    description: 'Project of background slider with autoplay and slide loop options.',
+    img: '/project11/capa.png',
+    url: '/project11',
   }
 ]
