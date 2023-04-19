@@ -8,17 +8,17 @@ export default function RoutesPage() {
       <Routes>
         <Route path='/' element={<HomeView title="All Projects - FrontEnd" />} />
         
-        <Route path='/project01' element={<Project01 title="Project 01 - Expanding Cards" />} />
-        <Route path='/project02' element={<Project02 title="Project 02 - Progress Steps" />} />
-        <Route path='/project03' element={<Project03 title="Project 03 - Blurry Loading" />} />
-        <Route path='/project04' element={<Project04 title="Project 04 - Scroll Animation" />} />
-        <Route path='/project05' element={<Project05 title="Project 05 - Form Input Wave" />} />
-        <Route path='/project06' element={<Project06 title="Project 06 - Sound Board" />} />
-        <Route path='/project07' element={<Project07 title="Project 07 - Random Jokes" />} />
-        <Route path='/project08' element={<Project08 title="Project 08 - Random Choice Picker" />} />
-        <Route path='/project09' element={<Project09 title="Project 09 - Increment Counter" />} />
-        <Route path='/project10' element={<Project10 title="Project 10 - Drink Water" />} />
-        <Route path='/project11' element={<Project11 title="Project 11 - Background Slider" />} />
+        <Route path='/expanding-cards' element={<Project01 title="Project 01 - Expanding Cards" />} />
+        <Route path='/progress-steps' element={<Project02 title="Project 02 - Progress Steps" />} />
+        <Route path='/blurry-loading' element={<Project03 title="Project 03 - Blurry Loading" />} />
+        <Route path='/scroll-animation' element={<Project04 title="Project 04 - Scroll Animation" />} />
+        <Route path='/form-input-wave' element={<Project05 title="Project 05 - Form Input Wave" />} />
+        <Route path='/sound-board' element={<Project06 title="Project 06 - Sound Board" />} />
+        <Route path='/random-jokes' element={<Project07 title="Project 07 - Random Jokes" />} />
+        <Route path='/random-choice-picker' element={<Project08 title="Project 08 - Random Choice Picker" />} />
+        <Route path='/increment-counter' element={<Project09 title="Project 09 - Increment Counter" />} />
+        <Route path='/drink-water' element={<Project10 title="Project 10 - Drink Water" />} />
+        <Route path='/background-slider' element={<Project11 title="Project 11 - Background Slider" />} />
         
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
