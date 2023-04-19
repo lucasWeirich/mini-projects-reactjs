@@ -1,4 +1,4 @@
-import Icon from '@mdi/react';
+import { Icon } from '@mdi/react';
 import { ProjectsProps } from '../../@types/projects.types'
 import usePageTitle from '../../hook/usePageTitle'
 import TemplateDefault from '../../templates/Default.template'

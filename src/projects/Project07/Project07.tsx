@@ -4,7 +4,7 @@ import TemplateDefault from '../../templates/Default.template'
 import * as CSS from './Project07.styles'
 import usePageTitle from '../../hook/usePageTitle'
 import ButtonDefault from '../../assets/css/ButtonDefault'
-import Icon from '@mdi/react'
+import { Icon } from '@mdi/react'
 import { mdiDelete, mdiHeart } from '@mdi/js'
 
 interface jokeProps {

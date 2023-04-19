@@ -1,10 +1,9 @@
-import Icon from '@mdi/react'
+import { Icon } from '@mdi/react'
 import { allProjects } from '../../utils/allProjects'
 import * as NB from './NavBar.styles'
 import { mdiMagnify } from '@mdi/js'
 import { FormEvent, useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-
 
 export default function NavBar() {
 
@@ -35,7 +34,7 @@ export default function NavBar() {
 
     if (search !== '') searchItemMenu();
   }, [search])
-  
+
   function handleSubmitSearch(e: FormEvent) {
     e.preventDefault();
     console.log(itemsMenu[0].url)
