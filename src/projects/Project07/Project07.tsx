@@ -66,15 +66,7 @@ export default function Project07({ title }: ProjectsProps) {
 
     if (!remove) return;
 
-    setAllFavorite(prev => {
-      const index = prev.findIndex(joke => joke.id === id);
-
-      if (index !== -1) {
-        return prev.splice(index, 1);
-      } else {
-        return [...prev];
-      }
-    })
+    setAllFavorite(prev => prev.filter(joke => joke.id !== id));
   }
 
   function isJokeFavorite() {
