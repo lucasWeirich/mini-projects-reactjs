@@ -1,0 +1,9 @@
+:root {
+  --colorOne: #f2f2f2;
+  --colorTwo: #121212;
+}
+
+:root .darkTheme {
+  --colorOne: #121212;
+  --colorTwo: #f2f2f2;
+}

@@ -75,5 +75,12 @@ export const allProjects = [
     description: 'Project of background slider with autoplay and slide loop options.',
     img: '/project11/capa.png',
     url: '/background-slider',
+  },
+  {
+    id: 12,
+    name: 'Theme Clock',
+    description: 'Clock project with dark and light theme - analogue and digital clock with date.',
+    img: '/project12/capa.png',
+    url: '/theme-clock',
   }
 ]
