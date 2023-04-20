@@ -82,5 +82,12 @@ export const allProjects = [
     description: 'Clock project with dark and light theme - analogue and digital clock with date.',
     img: '/project12/capa.png',
     url: '/theme-clock',
+  },
+  {
+    id: 13,
+    name: 'Button Ripple Effect',
+    description: 'Project of button ripple effect - this effect simulates waves propagating from the click point of contact, creating a sense of interactivity and visual feedback for the user.',
+    img: '/project13/capa.png',
+    url: '/button-ripple-effect',
   }
 ]
