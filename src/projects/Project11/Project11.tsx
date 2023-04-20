@@ -5,16 +5,16 @@ import TemplateDefault from "../../templates/Default.template";
 import * as CSS from './Project11.styles'
 import ButtonDefault from "../../assets/css/ButtonDefault";
 
-const slides = [
-  '/project11/slides/slide1.jpeg',
-  '/project11/slides/slide2.jpeg',
-  '/project11/slides/slide3.jpeg',
-  '/project11/slides/slide4.jpeg',
-  '/project11/slides/slide5.jpeg'
-];
-
 export default function Project11({ title }: ProjectsProps) {
   usePageTitle('Background Slider');
+
+  const slides = [
+    '/project11/slides/slide1.jpeg',
+    '/project11/slides/slide2.jpeg',
+    '/project11/slides/slide3.jpeg',
+    '/project11/slides/slide4.jpeg',
+    '/project11/slides/slide5.jpeg'
+  ];
 
   const [slideActive, setSlideActive] = useState(0);
   const [optionsSlider, setOptionsSlider] = useState({ loop: 'false', autoPlay: 'false' })
