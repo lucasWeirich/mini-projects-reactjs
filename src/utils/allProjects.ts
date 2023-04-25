@@ -89,5 +89,12 @@ export const allProjects = [
     description: 'Project of button ripple effect - this effect simulates waves propagating from the click point of contact, creating a sense of interactivity and visual feedback for the user.',
     img: '/project13/capa.png',
     url: '/button-ripple-effect',
+  },
+  {
+    id: 14,
+    name: 'Kinetic Loader',
+    description: 'Project of Kinetic Loader and click ESC remove Loader.',
+    img: '/project14/capa.png',
+    url: '/kinetic-loader',
   }
 ]
