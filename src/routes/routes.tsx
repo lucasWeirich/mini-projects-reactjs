@@ -21,7 +21,8 @@ export default function RoutesPage() {
         <Route path='/background-slider' element={<Project11 title="Project 11 - Background Slider" />} />
         <Route path='/theme-clock' element={<Project12 title="Project 12 - Theme Clock" />} />
         <Route path='/button-ripple-effect' element={<Project13 title="Project 13 - Button Ripple Effect" />} />
-        <Route path='/kinetic-loader' element={<Project14 title="Project 14 - Drawing App" />} />
+        <Route path='/kinetic-loader' element={<Project14 title="Project 14 - Kinetic Loader" />} />
+        <Route path='/skeleton-loader-card' element={<Project15 title="Project 15 - Skeleton Loader Card" />} />
         
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
@@ -44,3 +45,4 @@ import Project11 from '../projects/Project11/Project11';
 import Project12 from '../projects/Project12/Project12';
 import Project13 from '../projects/Project13/Project13';
 import Project14 from '../projects/Project14/Project14';
+import Project15 from '../projects/Project15/Project15';

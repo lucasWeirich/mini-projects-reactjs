@@ -96,5 +96,12 @@ export const allProjects = [
     description: 'Project of Kinetic Loader and click ESC remove Loader.',
     img: '/project14/capa.png',
     url: '/kinetic-loader',
+  },
+  {
+    id: 15,
+    name: 'Skeleton Loader Card',
+    description: 'Project of Skeleton Loader Card. Shows a similar replica of the card while the card has not been loaded.',
+    img: '/project15/capa.png',
+    url: '/skeleton-loader-card',
   }
 ]
