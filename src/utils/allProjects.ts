@@ -103,5 +103,12 @@ export const allProjects = [
     description: 'Project of Skeleton Loader Card. Shows a similar replica of the card while the card has not been loaded.',
     img: '/project15/capa.png',
     url: '/skeleton-loader-card',
+  },
+  {
+    id: 16,
+    name: 'Vertical Slider',
+    description: 'Project of double vertical slider.',
+    img: '/project16/capa.png',
+    url: '/vertical-slider',
   }
 ]
