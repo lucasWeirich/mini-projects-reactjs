@@ -110,5 +110,12 @@ export const allProjects = [
     description: 'Project of double vertical slider.',
     img: '/project16/capa.png',
     url: '/vertical-slider',
-  }
+  },
+  {
+    id: 17,
+    name: 'Toast Notification',
+    description: 'Project of toast notification. Information and error messages that are cleared from the screen in 1500ms.',
+    img: '/project17/capa.png',
+    url: '/toast-notification',
+  },
 ]
