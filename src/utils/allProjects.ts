@@ -118,4 +118,11 @@ export const allProjects = [
     img: '/project17/capa.png',
     url: '/toast-notification',
   },
+  {
+    id: 18,
+    name: 'GitHub Profiles',
+    description: 'Project of github profiles. Search the username of the person you want to search on github, interface with effects and responsive.',
+    img: '/project18/capa.png',
+    url: '/github-profiles',
+  },
 ]
