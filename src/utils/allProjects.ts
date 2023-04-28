@@ -125,4 +125,11 @@ export const allProjects = [
     img: '/project18/capa.png',
     url: '/github-profiles',
   },
+  {
+    id: 19,
+    name: 'Double Click Heart',
+    description: 'Project of double click heart',
+    img: '/project19/capa.png',
+    url: '/double-click-heart',
+  },
 ]
