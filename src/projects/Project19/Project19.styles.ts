@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  margin-bottom: 40px;
 
   & .Title {
     text-align: center;

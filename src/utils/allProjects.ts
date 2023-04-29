@@ -128,7 +128,7 @@ export const allProjects = [
   {
     id: 19,
     name: 'Double Click Heart',
-    description: 'Project of double click heart',
+    description: 'Project of double click heart. Heart effect on mouse click position and likes count',
     img: '/project19/capa.png',
     url: '/double-click-heart',
   },
