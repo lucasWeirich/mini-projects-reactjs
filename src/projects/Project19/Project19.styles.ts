@@ -31,7 +31,7 @@ export const Card = styled.div<{
   align-items: center;
   border-radius: 5px;
   box-shadow: 4px 4px 10px -2px var(--colorBorder);
-  //overflow: hidden;
+  overflow: hidden;
   transition: all 0.3s;
   cursor: pointer;
   position: relative;
@@ -42,6 +42,7 @@ export const Card = styled.div<{
     min-height: 100%;
     object-fit: cover;
     transition: all 0.3s;
+    z-index: -1;
   }
 
   &> svg {

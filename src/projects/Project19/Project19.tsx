@@ -40,8 +40,8 @@ export default function Project19({ title }: ProjectsProps) {
       }
     } = e;
 
-    const xInside = left - x;
-    const yInside = top - y;
+    const xInside = x - left;
+    const yInside = y - top;
 
     setPositionHeart({
       x: xInside,
@@ -64,7 +64,7 @@ export default function Project19({ title }: ProjectsProps) {
         positionHeart={positionHeart}
         onClick={(e) => handleDoubleClickCard(e)}
       >
-        {/* <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Image Card" /> */}
+        <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Image Card" />
 
         {
           showEffect &&
