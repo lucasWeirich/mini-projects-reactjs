@@ -146,4 +146,11 @@ export const allProjects = [
     img: '/project21/capa.png',
     url: '/password-generator',
   },
+  {
+    id: 22,
+    name: 'Good, Cheap, Fast',
+    description: 'Project of good, cheap, fast. Choose how you want the project',
+    img: '/project22/capa.png',
+    url: '/good-cheap-fast',
+  },
 ]
