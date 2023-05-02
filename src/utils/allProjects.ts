@@ -132,4 +132,11 @@ export const allProjects = [
     img: '/project19/capa.png',
     url: '/double-click-heart',
   },
+  {
+    id: 20,
+    name: 'Auto Text Effect',
+    description: 'Project of auto text effect. Having a list of sentences, it renders one sentence at a time, with the effect of appearing one word at a time "typing effect".',
+    img: '/project20/capa.png',
+    url: '/auto-text-effect',
+  },
 ]

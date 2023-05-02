@@ -27,6 +27,7 @@ export default function RoutesPage() {
         <Route path='/toast-notification' element={<Project17 title="Project 17 - Toast Notification" />} />
         <Route path='/github-profiles' element={<Project18 title="Project 18 - GitHub Profiles" />} />
         <Route path='/double-click-heart' element={<Project19 title="Project 19 - Double Click Heart" />} />
+        <Route path='/auto-text-effect' element={<Project20 title="Project 20 - Auto Text Effect" />} />
         
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
@@ -54,3 +55,4 @@ import Project16 from '../projects/Project16/Project16';
 import Project17 from '../projects/Project17/Project17';
 import Project18 from '../projects/Project18/Project18';
 import Project19 from '../projects/Project19/Project19';
+import Project20 from '../projects/Project20/Project20';
