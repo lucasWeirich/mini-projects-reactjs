@@ -139,4 +139,11 @@ export const allProjects = [
     img: '/project20/capa.png',
     url: '/auto-text-effect',
   },
+  {
+    id: 21,
+    name: 'Password Generator',
+    description: 'Project of password generator. Custom password generator with choice of lowercase, uppercase, numbers, special characters and the length of the password to be generated.',
+    img: '/project21/capa.png',
+    url: '/password-generator',
+  },
 ]
