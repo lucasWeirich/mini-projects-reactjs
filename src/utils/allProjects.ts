@@ -149,8 +149,15 @@ export const allProjects = [
   {
     id: 22,
     name: 'Good, Cheap, Fast',
-    description: 'Project of good, cheap, fast. Choose how you want the project',
+    description: 'Project of good, cheap, fast. Choose how you want the project.',
     img: '/project22/capa.png',
     url: '/good-cheap-fast',
+  },
+  {
+    id: 23,
+    name: 'Notes App',
+    description: 'Project of notes app. Notes application where data is stored in the browser, with the option to edit and delete.',
+    img: '/project23/capa.png',
+    url: '/note-app',
   },
 ]
