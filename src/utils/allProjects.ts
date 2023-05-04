@@ -174,4 +174,11 @@ export const allProjects = [
     img: '/project25/capa.png',
     url: '/hoverboard',
   },
+  {
+    id: 26,
+    name: 'Mobile Tab Navigation',
+    description: 'Project of mobile tab navigation. Mobile tab navigation with custom styling.',
+    img: '/project26/capa.png',
+    url: '/mobile-tab-navigation',
+  },
 ]
