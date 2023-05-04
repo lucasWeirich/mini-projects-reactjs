@@ -167,4 +167,11 @@ export const allProjects = [
     img: '/project24/capa.png',
     url: '/animated-countdown',
   },
+  {
+    id: 25,
+    name: 'Hoverboard',
+    description: 'Project of hoverboard. Frame that when hovering the mouse over it takes on a random color and fades out again.',
+    img: '/project25/capa.png',
+    url: '/hoverboard',
+  },
 ]
