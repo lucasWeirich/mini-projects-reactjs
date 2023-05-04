@@ -160,4 +160,11 @@ export const allProjects = [
     img: '/project23/capa.png',
     url: '/note-app',
   },
+  {
+    id: 24,
+    name: 'Animated Countdown',
+    description: 'Project of animatied countdown. Countdown to start with animation effects.',
+    img: '/project24/capa.png',
+    url: '/animated-countdown',
+  },
 ]
