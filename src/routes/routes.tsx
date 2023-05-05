@@ -34,6 +34,7 @@ export default function RoutesPage() {
         <Route path='/animated-countdown' element={<Project24 title="Project 24 - Animated Countdown" />} />
         <Route path='/hoverboard' element={<Project25 title="Project 25 - Hoverboard" />} />
         <Route path='/mobile-tab-navigation' element={<Project26 title="Project 26 - Mobile Tab Navigation" />} />
+        <Route path='/3d-boxes-background' element={<Project27 title="Project 27 - 3D Boxes Background" />} />
         
         <Route path='*' element={<NotFound404 title="Not Found - 404" />} />
       </Routes>
@@ -68,3 +69,4 @@ import Project23 from '../projects/Project23/Project23';
 import Project24 from '../projects/Project24/Project24';
 import Project25 from '../projects/Project25/Project25';
 import Project26 from '../projects/Project26/Project26';
+import Project27 from '../projects/Project27/Project27';

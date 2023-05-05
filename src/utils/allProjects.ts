@@ -181,4 +181,11 @@ export const allProjects = [
     img: '/project26/capa.png',
     url: '/mobile-tab-navigation',
   },
+  {
+    id: 27,
+    name: '3D Boxes Background',
+    description: 'Project of 3d boxes background.',
+    img: '/project27/capa.png',
+    url: '/3d-boxes-background',
+  },
 ]
