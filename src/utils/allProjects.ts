@@ -188,4 +188,11 @@ export const allProjects = [
     img: '/project27/capa.png',
     url: '/3d-boxes-background',
   },
+  {
+    id: 28,
+    name: 'Live User Filter',
+    description: 'Project of live user filter. User search in the list by name, working with requests as well.',
+    img: '/project28/capa.png',
+    url: '/live-user-filter',
+  },
 ]
