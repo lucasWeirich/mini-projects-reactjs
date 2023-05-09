@@ -195,4 +195,11 @@ export const allProjects = [
     img: '/project28/capa.png',
     url: '/live-user-filter',
   },
+  {
+    id: 29,
+    name: 'Feedback UI Design',
+    description: 'Project of feedback ui design. Feedback control with post-sent preview.',
+    img: '/project29/capa.png',
+    url: '/feedback-ui-design',
+  },
 ]
