@@ -1,4 +1,4 @@
-import Icon from "@mdi/react";
+import { Icon } from "@mdi/react";
 import { ProjectsProps } from "../../@types/projects.types";
 import ButtonDefault from "../../assets/css/ButtonDefault";
 import usePageTitle from "../../hook/usePageTitle";
@@ -79,7 +79,7 @@ export default function Project29({ title }: ProjectsProps) {
                 color='red'
               />
 
-              <div style={{padding: '20px 0'}}>
+              <div style={{ padding: '20px 0' }}>
                 <h3>Thank You!</h3>
                 <h3>Feedback:
                   <span style={{ color: feedbackSend.color }}> {feedbackSend.label}</span>
