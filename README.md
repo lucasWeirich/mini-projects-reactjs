@@ -1,7 +1,4 @@
-# 50 projects in 50 days
-
-> Project ideas taken from the repository: <br>
-§ https://github.com/bradtraversy/50projects50days
+# Mini Projects in ReactJS
 
 #### Link do deploy (project still under development)
-> https://50projects50days-lucas.netlify.app/
+> https://miniprojects-reactjs-lucas.netlify.app/
