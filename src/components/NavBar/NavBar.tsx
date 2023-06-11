@@ -48,7 +48,7 @@ export default function NavBar() {
     <div className="Container">
       <Link to="/"><NB.Logo src="/logo.png" /></Link>
 
-      <NB.Title>50 Projects in 50 days</NB.Title>
+      <NB.Title>Mini Projects in ReactJS</NB.Title>
 
       <NB.Search active={menuActive} onSubmit={handleSubmitSearch}>
         <input
