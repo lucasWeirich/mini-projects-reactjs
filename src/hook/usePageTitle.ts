@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 export default function usePageTitle(title: string) {
-    const BASE_TITLE = '50 projects in 50 days'
+    const BASE_TITLE = 'Mini projects ReactJS'
 
     useEffect(() => {
         let newTitle;
